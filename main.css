@@ -242,6 +242,40 @@ table {
     padding: 1.5em 10px ;
 }
 
+.s4Question {
+    border: 1px solid aqua;
+    margin-top: 3em;
+    padding: 2em;
+}
+
+.s4Question ol {
+    list-style-type: lower-alpha;
+    margin-left: 3em;
+}
+
+.s4Ques {
+    margin: 1em;
+}
+
+.s4learningSight {
+    margin: 2em 0;
+}
+
+.s4learningSight p {
+    padding-left: 1em;
+}
+
+.s4link {
+    display: flex;
+    justify-content: right;
+}
+
+.s4link a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
 
 
 
