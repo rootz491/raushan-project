@@ -47,12 +47,17 @@ table {
 .pencilDesktop > div {
     margin: 1em 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .pencilDesktop img {
     width: 10em;
+}
+
+.pencilDesktop p {
+    margin: 1em;
+    padding: 1.5em;
 }
 
 .pencilMobile {
@@ -290,6 +295,7 @@ table {
     height: 3em;
 }
 .s4table th {
+    color: white;
     height: 3em;
 }
 
