@@ -37,15 +37,31 @@ table {
 }
 
 .s1Pencil {
-    padding: 1.5em;
+    padding: 2em 3em;
 }
 
-.s1Pencil img {
-    width: 100%;
+.s1Pencil p {
+    padding: 1em;
+}
+
+.pencilDesktop > div {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pencilDesktop img {
+    width: 10em;
 }
 
 .pencilMobile {
+    width: 100%;
     display: none;
+}
+
+.pencilMobile img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -78,12 +94,15 @@ table {
     .s1Pencil {
         padding: 10px;
     }
+  
     .pencilMobile {
+        width: 100%;
         display: block;
     }
     .pencilDesktop {
         display: none;
     }
+
 }
 
 /*       section 1 ends       */
@@ -101,9 +120,30 @@ table {
     margin: 2em 0;
 }
 
-.s2Table img {
+.s2Table th, .s2Table td {
+    padding: 1em;
+}
+
+.s2Table th {
+    background: lightblue;
+}
+
+.s2Table tr:nth-child(even) {
+    background: lightblue;
+}
+.s2Table tr:nth-child(odd) {
+    background: lightyellow;
+}
+.s2Table table {
     width: 100%;
 }
+
+.s2Table > img {
+    width: 100%;
+    display: none;
+}
+
+
 
 .s2footer ul {
     margin: 5px 0;
@@ -235,9 +275,32 @@ table {
     color: orange;
 }
 
-.s4table img {
-    width: 100%;       
+.s4table > img {
+    display: none;
+    width: 100%;   
 }
+
+.s4table table {
+    width: 100%;
+}
+.s4table table img {
+    width: 2em;
+}
+.s4table td {
+    height: 3em;
+}
+.s4table th {
+    height: 3em;
+}
+
+.s4table table tr:nth-of-type(odd) {
+    background: lightyellow;
+}
+
+.s4table table tr:nth-of-type(even) {
+    background: lightblue;
+}
+
 .s4header {
     padding: 1.5em 10px ;
 }
@@ -330,9 +393,16 @@ table {
         align-items: center;
         justify-content: center;
     }   
-    .s2Table {
-        padding: 0;
+
+
+    .s2Table table {
+        display: none;
     }
+
+    .s2Table > img {
+        display: block;
+    }
+    
 
     
     .s3Header h1 {
@@ -363,4 +433,13 @@ table {
     .s4header h1 {
         padding-top: 0;
     }
+
+    .s4table table {
+        display: none;
+    }
+
+    .s4table > img {
+        display: block;
+    }
+    
 }
