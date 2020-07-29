@@ -1,451 +1,445 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 #sectionSpace {
-    height: 3em;
-    width: 100%;
-    background-color: rgba(128, 128, 128,.2);
+  height: 3em;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.2);
 }
 
 .headerImg img {
-    max-height: 350px;
-    width: 100%;
+  max-height: 350px;
+  width: 100%;
 }
 
 .noteTeacher {
-    padding: 3em;
+  padding: 3em;
 }
 
 .noteTeacher h1 {
-    color: orange;
-    font-size: 4em;
-    text-align: center;
+  color: orange;
+  font-size: 4em;
+  text-align: center;
 }
 
 .noteTeacher p {
-    padding: 2em 3em 0 3em;
-    font-size: 22px;
-    text-align: justify;
+  padding: 2em 3em 0 3em;
+  font-size: 22px;
+  text-align: justify;
 }
 
 .s1Pencil {
-    padding: 2em 3em;
+  padding: 2em 3em;
 }
 
 .s1Pencil p {
-    padding: 1em;
+  padding: 1em;
 }
 
 .pencilDesktop > div {
-    margin: 1em 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pencilDesktop img {
-    width: 10em;
+  width: 15em;
 }
 
 .pencilDesktop p {
-    margin: 1em;
-    padding: 1.5em;
-}
-
-.pencilMobile {
-    width: 100%;
-    display: none;
-}
-
-.pencilMobile img {
-    width: 100%;
+  padding: 2em;
 }
 
 @media screen and (max-width: 1100px) {
-    .headerImg img {
-        height: auto;
-        width: 100%;
-    }
-    .noteTeacher h1 {
-        font-size: 3em;
-        text-align: center;
-    }
-    .noteTeacher p {
-        padding: 2em 1em 0 1em;
-        font-size: 18px;
-        text-align: justify;
-    }
-    
+  .headerImg img {
+    height: auto;
+    width: 100%;
+  }
+  .noteTeacher h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+  .noteTeacher p {
+    padding: 2em 1em 0 1em;
+    font-size: 18px;
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .noteTeacher {
-        padding: 1.5em;
-    }
-    .noteTeacher h1 {
-        font-size: 2em;
-    }
-    .noteTeacher p {
-        padding: 2em 0 0 0;
-    }
-    .s1Pencil {
-        padding: 10px;
-    }
-  
-    .pencilMobile {
-        width: 100%;
-        display: block;
-    }
-    .pencilDesktop {
-        display: none;
-    }
+  .noteTeacher {
+    padding: 1.5em;
+  }
+  .noteTeacher h1 {
+    font-size: 2em;
+  }
+  .noteTeacher p {
+    padding: 2em 0 0 0;
+  }
+  .s1Pencil {
+    padding: 10px;
+  }
+  .pencilDesktop img {
+    width: 10em;
+  }
+}
 
+@media screen and (max-width: 650px) {
+  .pencilDesktop img {
+    width: 5em;
+  }
 }
 
 /*       section 1 ends       */
 
 .s2 {
-    padding: 4em 2em;
+  padding: 4em 2em;
 }
 
 .s2header h1 {
-    color: orange;
+  color: orange;
 }
 
 .s2Table {
-    padding: 10px;
-    margin: 2em 0;
+  padding: 10px;
+  margin: 2em 0;
 }
 
-.s2Table th, .s2Table td {
-    padding: 1em;
+.s2Table th,
+.s2Table td {
+  padding: 1em;
 }
 
 .s2Table th {
-    background: lightblue;
+  background: lightblue;
 }
 
 .s2Table tr:nth-child(even) {
-    background: lightblue;
+  background: lightblue;
 }
 .s2Table tr:nth-child(odd) {
-    background: lightyellow;
+  background: lightyellow;
 }
 .s2Table table {
-    width: 100%;
+  width: 100%;
 }
 
 .s2Table > img {
-    width: 100%;
-    display: none;
+  width: 100%;
+  display: none;
 }
 
-
-
 .s2footer ul {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .s2footer li {
-    margin: 5px;
-    margin-left: 10px;
-    display: flex;
-    align-items: baseline;
-    justify-content: start;
+  margin: 5px;
+  margin-left: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
 }
 
 .s2 h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .s2footer p {
-    font-size: 1.5em;
-    padding-left: 3px;
-    text-align: justify;
+  font-size: 1.5em;
+  padding-left: 3px;
+  text-align: justify;
 }
-
-
 
 /*     section 2 ends     */
 
 .s3 {
-    padding: 4em 5em;
+  padding: 4em 5em;
 }
 
 .s3Header {
-    padding: 2em 0;
+  padding: 2em 0;
 }
 
 .s3Header h1 {
-    color: orange;
-    padding-bottom: .5em;
-    font-size: 5em;
+  color: orange;
+  padding-bottom: 0.5em;
+  font-size: 5em;
 }
 
 .s3Table1 {
-    display: flex;
-    gap: 3em;
-    justify-content: space-between;
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
 }
 
 .s3Table1 h2 {
-    padding: 1em;
-} 
+  padding: 1em;
+}
 
 .s3Table1 table th {
-    padding: 1em 3em;    
+  padding: 1em 3em;
 }
 
 #mainrow1 {
-    background: rgb(41, 97, 202);
-    color: white;
+  background: rgb(41, 97, 202);
+  color: white;
 }
 
 #secondrow1 {
-    background: rgba(173, 216, 230,.4);
+  background: rgba(173, 216, 230, 0.4);
 }
 
 .s3Table2 h2 {
-    padding: 1em;
+  padding: 1em;
 }
 
-
 .s3Table2 tr {
-    padding: 1em;
-    display: flex;
-    justify-content: space-evenly;
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #secondrow2 {
-    outline: .1px solid grey;
+  outline: 0.1px solid grey;
 }
 
 #mainrow2 {
-    background: rgb(128, 189, 189);
-    color: white;
+  background: rgb(128, 189, 189);
+  color: white;
 }
 
-.s3Table3 th, .s3Table3 td {
-    padding: 1em;
+.s3Table3 th,
+.s3Table3 td {
+  padding: 1em;
 }
 
 .s3Table3 h2 {
-    padding: 1em;
+  padding: 1em;
 }
 
 .s3Table3 td span {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #mainrow3 {
-    color: white;
-    background: rgba(0, 128, 0,.7);
+  color: white;
+  background: rgba(0, 128, 0, 0.7);
 }
 
 #secondrow3 {
-    outline: .1px solid grey;
+  outline: 0.1px solid grey;
 }
 
 .s3table3img {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 
 .s3table2img {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 .s3table1secondimg {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
+
+.tableHeader, .tblh{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tableHeader{
+    justify-content: space-evenly;
+}
+.tblh div, .tblh img{
+    margin-right: 12px;
+}
+.box{
+    width: 20px;
+    height: 20px;
+}
+.box1{ background-color: lightgreen;}
+.box2{ background-color: yellow;}
+.box3{ background-color: orange;}
+.box4{ background-color: red;}
+
 
 /*       section 3 ends       */
 
 .s4 {
-    padding: 4em 5em;
+  padding: 4em 5em;
 }
 .s4header h1 {
-    padding: 1em 0;
-    font-size: 3em;
-    color: orange;
+  padding: 1em 0;
+  font-size: 3em;
+  color: orange;
 }
 
 .s4table > img {
-    display: none;
-    width: 100%;   
+  display: none;
+  width: 100%;
 }
 
 .s4table table {
-    width: 100%;
+  width: 100%;
 }
 .s4table table img {
-    width: 2em;
+  width: 2em;
 }
 .s4table td {
-    height: 3em;
+  height: 3em;
 }
 .s4table th {
-    color: white;
-    height: 3em;
+  color: white;
+  height: 3em;
 }
 
 .s4table table tr:nth-of-type(odd) {
-    background: lightyellow;
+  background: lightyellow;
 }
 
 .s4table table tr:nth-of-type(even) {
-    background: lightblue;
+  background: lightblue;
 }
 
 .s4header {
-    padding: 1.5em 10px ;
+  padding: 1.5em 10px;
 }
 
 .s4Question {
-    border: 1px solid aqua;
-    margin-top: 3em;
-    padding: 2em;
+  border: 1px solid aqua;
+  margin-top: 3em;
+  padding: 2em;
 }
 
 .s4Question ol {
-    list-style-type: lower-alpha;
-    margin-left: 3em;
+  list-style-type: lower-alpha;
+  margin-left: 3em;
 }
 
 .s4Ques {
-    margin: 1em;
+  margin: 1em;
 }
 
 .s4learningSight {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 .s4learningSight p {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 .s4link {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
 }
 
 .s4link a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: right;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
 }
-
-
-
-
-
 
 .mainfooter {
-    padding: 10px;
-    margin-top: 1em;
-    background: black;
+  padding: 10px;
+  margin-top: 1em;
+  background: black;
 }
 .mainfooter img {
-    width: 100%;
+  width: 100%;
 }
 
-
 @media screen and (max-width: 1220px) {
-    .s2footer p {
-        font-size: 1em;
-        padding-left: 1em;
-    }
-    .s2footer h1 {
-        font-size: 2em;
-    }
-    .s3Table1 {
-        flex-direction: column;
-    }
+  .s2footer p {
+    font-size: 1em;
+    padding-left: 1em;
+  }
+  .s2footer h1 {
+    font-size: 2em;
+  }
+  .s3Table1 {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .s2footer h1 {
-        font-size: 1.7em;
-    }
-    .s2 h2 {
-        font-size: 1.3em;
-    }
+  .s2footer h1 {
+    font-size: 1.7em;
+  }
+  .s2 h2 {
+    font-size: 1.3em;
+  }
 
-    .s3 {
-        padding: 2em .5em;
-    }
-    .s4 {
-        padding: 0;
-    }
+  .s3 {
+    padding: 2em 0.5em;
+  }
+  .s4 {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .s2 {
-        padding: 3em 1em;
-    }
-    .s2 li {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }   
+  .s2 {
+    padding: 3em 1em;
+  }
+  .s2 li {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .s2Table table {
+    display: none;
+  }
 
-    .s2Table table {
-        display: none;
-    }
+  .s2Table > img {
+    display: block;
+  }
 
-    .s2Table > img {
-        display: block;
-    }
-    
-
-    
-    .s3Header h1 {
-        font-size: 3em;
-    }
-    .s3 h2 {
-        font-size: 1em;
-    }
-    .s3Table2 table {
-        display: none;
-    }
-    .s3table1second table {
-        display: none;
-    }
-    .s3Table3 table {
-        display: none;
-    }
-    .s3table3img {
-        display: block;
-        width: 100%;
-    }
-    .s3table2img {
-        display: block;
-    }
-    .s3table1secondimg {
-        display: block;
-    }
-    .s4header h1 {
-        padding-top: 0;
-    }
-
-    .s4table table {
-        display: none;
-    }
-
-    .s4table > img {
-        display: block;
-    }
-    
+  .s3Header h1 {
+    font-size: 3em;
+  }
+  .s3 h2 {
+    font-size: 1em;
+  }
+  .s3Table2 table {
+    display: none;
+  }
+  .s3table1second table {
+    display: none;
+  }
+  .s3Table3 table {
+    display: none;
+  }
+  .s3table3img {
+    display: block;
+    width: 100%;
+  }
+  .s3table2img {
+    display: block;
+  }
+  .s3table1secondimg {
+    display: block;
+  }
+  .s4header h1 {
+    padding-top: 0;
+  }
+  .tblh{
+      font-size: 12px;
+  }
+  .tblh div, .tblh img{
+    margin-right: 0;
+  }
 }
